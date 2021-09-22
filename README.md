@@ -23,10 +23,16 @@ git clone https://github.com/isaiahnixon/resume
 Run a local web server
 
 ```
-python -m SimpleHTTPServer 8080
+python3 server.py
 ```
 
-Nativate to [http://localhost:8080](http://localhost:8080) in a web browser.
+Run a SASS compiler
+
+```
+sass --watch scss:css
+```
+
+Nativate to [http://localhost:4000](http://localhost:4000) in a web browser.
 
 
 ## Built With
